@@ -33,5 +33,12 @@ public class Student {
      * The Address.
      */
     public String address;
+
+    public Object getStudentByName(String pratibha) {
+        return null;
+    }
+
+    public void setName(String pratibha) {
+    }
 }
 
