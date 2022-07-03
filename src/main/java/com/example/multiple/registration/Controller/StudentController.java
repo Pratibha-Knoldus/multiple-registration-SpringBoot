@@ -10,24 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * The type Test controller.
- */
 @RestController
 @RequestMapping("/")
-public class TestController {
+public class StudentController {
 
-    /**
-     * The Student repository.
-     */
     @Autowired
     StudentRepository studentRepository;
 
-    /**
-     * Get sudents list.
-     *
-     * @return the list
-     */
     @GetMapping("/")
     public List<Student> GetSudents(){
         List<Student> result = new ArrayList<>();
